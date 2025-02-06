@@ -24,6 +24,7 @@ public class ElementIn2DArray {
                 end = mid - 1;         // Search in the left half
             }
         }
+
         return res;
     }
 }

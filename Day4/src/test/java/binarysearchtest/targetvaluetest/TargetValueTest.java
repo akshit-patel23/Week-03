@@ -22,6 +22,7 @@ public class TargetValueTest {
         int target = 72;
         int[] result = obj.search(arr, target);
 
+        
         Assert.assertEquals(2,result[0]);
         Assert.assertEquals(1,result[1]);
 
